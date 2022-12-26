@@ -6,13 +6,10 @@ export type CategoryDocument = HydratedDocument<Category>;
 @Schema()
 export class Category {
   @Prop()
-  name: string;
+  title: string;
 
   @Prop()
-  age: number;
-
-  @Prop()
-  breed: string;
+  img: string;
 }
 
 export const CategorySchema = SchemaFactory.createForClass(Category);
