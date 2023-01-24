@@ -17,6 +17,4 @@ import {Category, CategorySchema} from "./category.schema";
   ]
 })
 
-export class CategoriesModule {
-
-}
+export class CategoriesModule {}
